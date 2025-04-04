@@ -5,7 +5,7 @@ import axios from 'axios';
 import Link from 'next/link';
 
 const defaultData = {email:"", password:""}
-export default function singInPage() {
+export default function SignInPage() {
 
       const router = useRouter();
   
@@ -46,7 +46,7 @@ export default function singInPage() {
               <button type="submit" className="bg-black py-4.5 px-16 text-white text-md text-center flex mx-auto rounded-xl cursor-pointer">Submit</button>
           </form>
           <hr className='my-7'></hr>
-          <h5 className='text-md text-center'>Don't have account? <Link href="/signup" className='text-blue-900'>Signup Now</Link></h5>
+          <h5 className='text-md text-center'>Don&apos;t have account? <Link href="/signup" className='text-blue-900'>Signup Now</Link></h5>
       </div>
   </div>
   )
